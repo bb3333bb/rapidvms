@@ -1,0 +1,140 @@
+Qt_5_PRIVATE_API {
+    qt_private_api_tag*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/animation/qabstractanimation_p.h */
+    *23QAnimationDriverPrivate*;
+    *23QAbstractAnimationTimer*;
+    *13QUnifiedTimer*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qabstractfileengine_p.h */
+    *19QAbstractFileEngine*;
+    *26QAbstractFileEngineHandler*;
+    *27QAbstractFileEngineIterator*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qfileselector_p.h */
+    *20QFileSelectorPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qfsfileengine_p.h */
+    *13QFSFileEngine*;
+    *20QFSFileEnginePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qiodevice_p.h */
+    *16QIODevicePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qloggingregistry_p.h */
+    *12QLoggingRule*;
+    *22QLoggingSettingsParser*;
+    *16QLoggingRegistry*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qnoncontiguousbytedevice_p.h */
+    *24QNonContiguousByteDevice*;
+    *31QNonContiguousByteDeviceFactory*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qsettings_p.h */
+    *9QConfFile*;
+    *16QSettingsPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qwindowspipereader_p.h */
+    *18QWindowsPipeReader*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qwindowspipewriter_p.h */
+    *18QWindowsPipeWriter*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/io/qwinoverlappedionotifier_p.h */
+    *24QWinOverlappedIoNotifier*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/itemmodels/qabstractitemmodel_p.h */
+    *25QAbstractItemModelPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/itemmodels/qabstractproxymodel_p.h */
+    *26QAbstractProxyModelPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qabstracteventdispatcher_p.h */
+    *31QAbstractEventDispatcherPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qcfsocketnotifier_p.h */
+    *17QCFSocketNotifier*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qcore_mac_p.h */
+    *7QCFType*;
+    *9QCFString*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qcoreapplication_p.h */
+    *23QCoreApplicationPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qcrashhandler_p.h */
+    *16QSegfaultHandler*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qeventdispatcher_cf_p.h */
+    *30QEventDispatcherCoreFoundation*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qeventdispatcher_glib_p.h */
+    *20QEventDispatcherGlib*;
+    *27QEventDispatcherGlibPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qeventdispatcher_unix_p.h */
+    *22QSocketNotifierSetUNIX*;
+    *20QEventDispatcherUNIX*;
+    *27QEventDispatcherUNIXPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qeventdispatcher_win_p.h */
+    *21QEventDispatcherWin32*;
+    *28QEventDispatcherWin32Private*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qeventdispatcher_winrt_p.h */
+    *21QEventDispatcherWinRT*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qjni_p.h */
+    *19QJNILocalRefDeleter*;
+    *22QJNIEnvironmentPrivate*;
+    *14QJNIObjectData*;
+    *17QJNIObjectPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qmetaobjectbuilder_p.h */
+    *18QMetaObjectBuilder*;
+    *18QMetaMethodBuilder*;
+    *20QMetaPropertyBuilder*;
+    *16QMetaEnumBuilder*;
+    *16QMetaStringTable*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qobject_p.h */
+    *24QAbstractDeclarativeData*;
+    *14QObjectPrivate*;
+    *14QMetaCallEvent*;
+    *22QDynamicMetaObjectData*;
+    *26QAbstractDynamicMetaObject*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qppsattribute_p.h */
+    *13QPpsAttribute*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qppsobject_p.h */
+    *10QPpsObject*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qsharedmemory_p.h */
+    *20QSharedMemoryPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qsystemerror_p.h */
+    *12QSystemError*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/kernel/qtimerinfo_unix_p.h */
+    *14QTimerInfoList*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/mimetypes/qmimetype_p.h */
+    *16QMimeTypePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/plugin/qfactoryloader_p.h */
+    *14QFactoryLoader*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/plugin/qmachparser_p.h */
+    *12QMachOParser*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/statemachine/qabstracttransition_p.h */
+    *26QAbstractTransitionPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/statemachine/qeventtransition_p.h */
+    *23QEventTransitionPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/statemachine/qfinalstate_p.h */
+    *18QFinalStatePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/statemachine/qstate_p.h */
+    *13QStatePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/statemachine/qstatemachine_p.h */
+    *20QStateMachinePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/thread/qmutexpool_p.h */
+    *10QMutexPool*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/thread/qthread_p.h */
+    *13QDaemonThread*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/thread/qthreadpool_p.h */
+    *18QThreadPoolPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/tools/qcollator_p.h */
+    *16QCollatorPrivate*;
+    *23QCollatorSortKeyPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/tools/qdatetimeparser_p.h */
+    *15QDateTimeParser*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/tools/qfreelist_p.h */
+    *25QFreeListDefaultConstants*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/tools/qlocale_p.h */
+    *13QSystemLocale*;
+    *14QLocalePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/tools/qtimezoneprivate_p.h */
+    *16QTimeZonePrivate*;
+    *19QUtcTimeZonePrivate*;
+    *19QIcuTimeZonePrivate*;
+    *18QTzTimeZonePrivate*;
+    *19QMacTimeZonePrivate*;
+    *19QWinTimeZonePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/corelib/xml/qxmlutils_p.h */
+    *9QXmlUtils*;
+};
+Qt_5 { *; };
+Qt_5.0 {} Qt_5;
+Qt_5.1 {} Qt_5.0;
+Qt_5.2 {} Qt_5.1;
+Qt_5.3 {} Qt_5.2;
+Qt_5.4 {} Qt_5.3;
+Qt_5.5 {} Qt_5.4;
+Qt_5.6 {} Qt_5.5;
+Qt_5.7 { qt_version_tag; } Qt_5.6;

@@ -1,0 +1,15 @@
+prefix=/home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/bin
+qt_config=minimal-config small-config medium-config large-config full-config no-pkg-config evdev xlib xrender xcb-plugin xcb-render xcb-glx xcb-xlib xkbcommon-qt accessibility-atspi-bridge linuxfb c++11 c++14 c++1z accessibility opengl shared qpa reduce_exports reduce_relocations clock-gettime clock-monotonic posix_fallocate mremap getaddrinfo ipv6ifname getifaddrs inotify eventfd threadsafe-cloexec poll_ppoll png doubleconversion freetype harfbuzz system-zlib iconv dbus xcb xinput2 rpath concurrent audio-backend release
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -lpthread -lz -L/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/lib -lqtpcre -lm -ldl -lrt  
+Cflags: -I${includedir}/QtCore -I${includedir}
+

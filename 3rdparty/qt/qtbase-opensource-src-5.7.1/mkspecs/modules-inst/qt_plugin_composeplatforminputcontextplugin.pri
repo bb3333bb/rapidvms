@@ -1,0 +1,4 @@
+QT_PLUGIN.composeplatforminputcontextplugin.TYPE = platforminputcontexts
+QT_PLUGIN.composeplatforminputcontextplugin.EXTENDS = -
+QT_PLUGIN.composeplatforminputcontextplugin.CLASS_NAME = QComposePlatformInputContextPlugin
+QT_PLUGINS += composeplatforminputcontextplugin

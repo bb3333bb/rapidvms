@@ -1,0 +1,173 @@
+Qt_5_PRIVATE_API {
+    qt_private_api_tag*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/accessible/qaccessiblecache_p.h */
+    *16QAccessibleCache*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/image/qicon_p.h */
+    *17QPixmapIconEngine*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/image/qiconloader_p.h */
+    *11QIconLoader*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/image/qimage_p.h */
+    *10QImageData*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/image/qimagepixmapcleanuphooks_p.h */
+    *24QImagePixmapCleanupHooks*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/image/qpixmap_raster_p.h */
+    *21QRasterPlatformPixmap*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qdnd_p.h */
+    *17QInternalMimeData*;
+    *12QDragManager*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qguiapplication_p.h */
+    *22QGuiApplicationPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qhighdpiscaling_p.h */
+    *15QHighDpiScaling*;
+    *15QHighDpiScaling*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qinputdevicemanager_p.h */
+    *19QInputDeviceManager*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qinputdevicemanager_p_p.h */
+    *26QInputDeviceManagerPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qkeymapper_p.h */
+    *10QKeyMapper*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qopenglcontext_p.h */
+    *21QOpenGLSharedResource*;
+    *26QOpenGLSharedResourceGuard*;
+    *26QOpenGLContextGroupPrivate*;
+    *31QOpenGLMultiGroupSharedResource*;
+    *21QOpenGLContextPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qpaintdevicewindow_p.h */
+    *25QPaintDeviceWindowPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qshortcutmap_p.h */
+    *12QShortcutMap*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qsimpledrag_p.h */
+    *10QBasicDrag*;
+    *11QSimpleDrag*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/kernel/qwindow_p.h */
+    *14QWindowPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopengl_p.h */
+    *23QOpenGLExtensionMatcher*;
+    *13QOpenGLConfig*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopenglcustomshaderstage_p.h */
+    *24QOpenGLCustomShaderStage*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopenglengineshadermanager_p.h */
+    *26QOpenGLEngineSharedShaders*;
+    *26QOpenGLEngineShaderManager*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopenglextensions_p.h */
+    *17QOpenGLExtensions*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopenglpaintdevice_p.h */
+    *25QOpenGLPaintDevicePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopenglpaintengine_p.h */
+    *21QOpenGL2PaintEngineEx*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopengltextureblitter_p.h */
+    *21QOpenGLTextureBlitter*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopengltexturecache_p.h */
+    *19QOpenGLTextureCache*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qopengltextureglyphcache_p.h */
+    *24QOpenGLTextureGlyphCache*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qtriangulatingstroker_p.h */
+    *21QTriangulatingStroker*;
+    *22QDashedStrokeProcessor*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/opengl/qtriangulator_p.h */
+    *18QVertexIndexVector*;
+    *12QTriangleSet*;
+    *12QPolylineSet*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qbezier_p.h */
+    *7QBezier*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qblittable_p.h */
+    *10QBlittable*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpagedpaintdevice_p.h */
+    *24QPagedPaintDevicePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpaintengine_blitter_p.h */
+    *19QBlitterPaintEngine*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpaintengine_p.h */
+    *19QPaintEnginePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpaintengine_raster_p.h */
+    *18QRasterPaintEngine*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpaintengineex_p.h */
+    *14QPaintEngineEx*;
+    *21QPaintEngineExPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpainter_p.h */
+    *13QPainterState*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpathclipper_p.h */
+    *12QPathClipper*;
+    *11QWingedEdge*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qpdf_p.h */
+    *10QPdfEngine*;
+    *17QPdfEnginePrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qstroker_p.h */
+    *11QStrokerOps*;
+    *8QStroker*;
+    *12QDashStroker*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qtextureglyphcache_p.h */
+    *18QTextureGlyphCache*;
+    *23QImageTextureGlyphCache*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/painting/qvectorpath_p.h */
+    *11QVectorPath*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qabstracttextdocumentlayout_p.h */
+    *34QAbstractTextDocumentLayoutPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qcssparser_p.h */
+    *11Declaration*;
+    *8Selector*;
+    *13StyleSelector*;
+    *7Scanner*;
+    *6Parser*;
+    *14ValueExtractor*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qdistancefield_p.h */
+    *18QDistanceFieldData*;
+    *14QDistanceField*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qfont_p.h */
+    *12QFontPrivate*;
+    *10QFontCache*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qfontengine_ft_p.h */
+    *13QFontEngineFT*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qfontengine_p.h */
+    *11QFontEngine*;
+    *16QFontEngineMulti*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qfontengine_qpf2_p.h */
+    *15QFontEngineQPF2*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qfontengineglyphcache_p.h */
+    *21QFontEngineGlyphCache*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qrawfont_p.h */
+    *15QRawFontPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qstatictext_p.h */
+    *19QStaticTextUserData*;
+    *15QStaticTextItem*;
+    *18QStaticTextPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextcursor_p.h */
+    *18QTextCursorPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextdocument_p.h */
+    *20QTextDocumentPrivate*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextdocumentlayout_p.h */
+    *19QTextDocumentLayout*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextengine_p.h */
+    *15glyph_metrics_t*;
+    *15QScriptAnalysis*;
+    *11QScriptItem*;
+    *11QScriptLine*;
+    *11QTextEngine*;
+    *16QStackTextEngine*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextformat_p.h */
+    *21QTextFormatCollection*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextimagehandler_p.h */
+    *17QTextImageHandler*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qtextodfwriter_p.h */
+    *14QTextOdfWriter*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qzipreader_p.h */
+    *10QZipReader*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/text/qzipwriter_p.h */
+    *10QZipWriter*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/util/qabstractlayoutstyleinfo_p.h */
+    *24QAbstractLayoutStyleInfo*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/util/qgridlayoutengine_p.h */
+    *14QGridLayoutBox*;
+    *15QGridLayoutItem*;
+    *17QGridLayoutEngine*;
+    /* /home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/gui/util/qlayoutpolicy_p.h */
+    *13QLayoutPolicy*;
+};
+Qt_5 { *; };
+Qt_5.0 {} Qt_5;
+Qt_5.1 {} Qt_5.0;
+Qt_5.2 {} Qt_5.1;
+Qt_5.3 {} Qt_5.2;
+Qt_5.4 {} Qt_5.3;
+Qt_5.5 {} Qt_5.4;
+Qt_5.6 {} Qt_5.5;
+Qt_5.7 { qt_version_tag; } Qt_5.6;

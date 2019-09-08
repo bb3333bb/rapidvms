@@ -1,0 +1,58 @@
+﻿Build started 1/26/2016 9:09:34 AM.
+     1>Project "C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\leveldb.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (memenv.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\include /I..\port\win /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WIN32_WINNT=0x0501 /D LEVELDB_PLATFORM_WINDOWS /D OS_WIN /D COMPILER_MSVC /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4996 /wd4800 /wd4355 /wd4244 /wd4018 /analyze- /errorReport:prompt ..\util\hdfs.cc ..\util\hdfs2.cc
+         hdfs.cc
+     1>c:\work\20-video\ffvid\3rdparty\leveldb\util\timer.h(38): warning C4101: 'tt' : unreferenced local variable
+         hdfs2.cc
+     1>c:\work\20-video\ffvid\3rdparty\leveldb\util\timer.h(38): warning C4101: 'tt' : unreferenced local variable
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\Release\leveldb.lib" /NOLOGO /LTCG Release\builder.obj
+         Release\c.obj
+         Release\db_impl.obj
+         Release\db_iter.obj
+         Release\dbformat.obj
+         Release\filename.obj
+         Release\log_reader.obj
+         Release\log_writer.obj
+         Release\memtable.obj
+         Release\repair.obj
+         Release\table_cache.obj
+         Release\version_edit.obj
+         Release\version_set.obj
+         Release\write_batch.obj
+         Release\block.obj
+         Release\block_builder.obj
+         Release\filter_block.obj
+         Release\format.obj
+         Release\iterator.obj
+         Release\merger.obj
+         Release\table.obj
+         Release\table_builder.obj
+         Release\two_level_iterator.obj
+         Release\arena.obj
+         Release\cache.obj
+         Release\coding.obj
+         Release\comparator.obj
+         Release\crc32c.obj
+         Release\env.obj
+         Release\env_dfs.obj
+         Release\env_win.obj
+         Release\filter_policy.obj
+         Release\hash.obj
+         Release\hdfs.obj
+         Release\hdfs2.obj
+         Release\histogram.obj
+         Release\logging.obj
+         Release\options.obj
+         Release\status.obj
+         Release\testharness.obj
+         Release\testutil.obj
+         Release\port_win.obj
+         leveldb.vcxproj -> C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\Release\leveldb.lib
+     1>Done Building Project "C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\leveldb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.31

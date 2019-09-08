@@ -1,0 +1,27 @@
+Qt_5_PRIVATE_API {
+    qt_private_api_tag*;
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/kernel/qsqlcachedresult_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/kernel/qsqldriver_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/kernel/qsqlnulldriver_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/kernel/qsqlresult_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/models/qsqlquerymodel_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/models/qsqltablemodel_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/db2/qsql_db2_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/ibase/qsql_ibase_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/mysql/qsql_mysql_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/oci/qsql_oci_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/odbc/qsql_odbc_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/psql/qsql_psql_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/sqlite/qsql_sqlite_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/sqlite2/qsql_sqlite2_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/sql/drivers/tds/qsql_tds_p.h@
+};
+Qt_5 { *; };
+Qt_5.0 {} Qt_5;
+Qt_5.1 {} Qt_5.0;
+Qt_5.2 {} Qt_5.1;
+Qt_5.3 {} Qt_5.2;
+Qt_5.4 {} Qt_5.3;
+Qt_5.5 {} Qt_5.4;
+Qt_5.6 {} Qt_5.5;
+Qt_5.7 { qt_version_tag; } Qt_5.6;

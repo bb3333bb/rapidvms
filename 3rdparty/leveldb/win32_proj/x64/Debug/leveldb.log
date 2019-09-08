@@ -1,0 +1,62 @@
+﻿Build started 1/26/2016 9:09:39 AM.
+     1>Project "C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\leveldb.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (memenv.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.. /I..\include /I..\port\win /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WIN32_WINNT=0x0501 /D LEVELDB_PLATFORM_WINDOWS /D OS_WIN /D COMPILER_MSVC /D _MBCS /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4996 /wd4800 /wd4355 /wd4244 /wd4018 /errorReport:prompt ..\db\builder.cc ..\table\table.cc ..\util\hdfs.cc ..\util\hdfs2.cc ..\util\histogram.cc
+         builder.cc
+         table.cc
+         hdfs.cc
+     1>c:\work\20-video\ffvid\3rdparty\leveldb\util\timer.h(38): warning C4101: 'tt' : unreferenced local variable
+         hdfs2.cc
+     1>c:\work\20-video\ffvid\3rdparty\leveldb\util\timer.h(38): warning C4101: 'tt' : unreferenced local variable
+         histogram.cc
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\x64\Debug\leveldb.lib" /NOLOGO /MACHINE:X64 x64\Debug\builder.obj
+         x64\Debug\c.obj
+         x64\Debug\db_impl.obj
+         x64\Debug\db_iter.obj
+         x64\Debug\dbformat.obj
+         x64\Debug\filename.obj
+         x64\Debug\log_reader.obj
+         x64\Debug\log_writer.obj
+         x64\Debug\memtable.obj
+         x64\Debug\repair.obj
+         x64\Debug\table_cache.obj
+         x64\Debug\version_edit.obj
+         x64\Debug\version_set.obj
+         x64\Debug\write_batch.obj
+         x64\Debug\block.obj
+         x64\Debug\block_builder.obj
+         x64\Debug\filter_block.obj
+         x64\Debug\format.obj
+         x64\Debug\iterator.obj
+         x64\Debug\merger.obj
+         x64\Debug\table.obj
+         x64\Debug\table_builder.obj
+         x64\Debug\two_level_iterator.obj
+         x64\Debug\arena.obj
+         x64\Debug\cache.obj
+         x64\Debug\coding.obj
+         x64\Debug\comparator.obj
+         x64\Debug\crc32c.obj
+         x64\Debug\env.obj
+         x64\Debug\env_dfs.obj
+         x64\Debug\env_win.obj
+         x64\Debug\filter_policy.obj
+         x64\Debug\hash.obj
+         x64\Debug\hdfs.obj
+         x64\Debug\hdfs2.obj
+         x64\Debug\histogram.obj
+         x64\Debug\logging.obj
+         x64\Debug\options.obj
+         x64\Debug\status.obj
+         x64\Debug\testharness.obj
+         x64\Debug\testutil.obj
+         x64\Debug\port_win.obj
+         leveldb.vcxproj -> C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\x64\Debug\leveldb.lib
+     1>Done Building Project "C:\work\20-video\ffvid\3rdparty\leveldb\win32_proj\leveldb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.24

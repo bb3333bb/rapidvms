@@ -1,0 +1,40 @@
+Qt_5_PRIVATE_API {
+    qt_private_api_tag*;
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qabstracttestlogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qbenchmark_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qbenchmarkevent_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qbenchmarkmeasurement_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qbenchmarkmetric_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qbenchmarkperfevents_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qbenchmarkvalgrind_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qcsvbenchmarklogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qplaintestlogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qsignaldumper_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qteamcitylogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestblacklist_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestcoreelement_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestcorelist_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestelement_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestelementattribute_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestlog_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestresult_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtesttable_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestutil_macos_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qtestxunitstreamer_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qxctestlogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qxmltestlogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/qxunittestlogger_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/3rdparty/callgrind_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/3rdparty/cycle_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/3rdparty/linux_perf_event_p.h@
+    @FILE:/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/src/testlib/3rdparty/valgrind_p.h@
+};
+Qt_5 { *; };
+Qt_5.0 {} Qt_5;
+Qt_5.1 {} Qt_5.0;
+Qt_5.2 {} Qt_5.1;
+Qt_5.3 {} Qt_5.2;
+Qt_5.4 {} Qt_5.3;
+Qt_5.5 {} Qt_5.4;
+Qt_5.6 {} Qt_5.5;
+Qt_5.7 { qt_version_tag; } Qt_5.6;

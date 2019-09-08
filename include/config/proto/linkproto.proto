@@ -1,0 +1,187 @@
+syntax = "proto3";
+
+package Link;
+
+import "linksystem.proto";
+
+enum LinkCmdType {
+	LINK_CMD_ZERO = 0;
+	LINK_CMD_LOGIN_REQ = 101;
+	LINK_CMD_LOGIN_RESP = 102;
+	LINK_CMD_KEEPALIVE_REQ = 103;
+	LINK_CMD_KEEPALIVE_RESP = 104;
+	LINK_CMD_REG_NOTIFY_REQ = 105;
+	LINK_CMD_REG_NOTIFY_RESP = 106;
+	
+	//Cam 
+	LINK_CMD_CAM_LIST_REQ = 201;
+	LINK_CMD_CAM_LIST_RESP = 202;
+	LINK_CMD_CAM_REQ = 203;
+	LINK_CMD_CAM_RESP = 204;
+	LINK_CMD_ADD_CAM_REQ = 205;
+	LINK_CMD_ADD_CAM_RESP = 206;
+	LINK_CMD_DEL_CAM_REQ = 207;
+	LINK_CMD_DEL_CAM_RESP = 208;
+	LINK_CMD_SET_CAM_SCHED_REQ = 209;
+	LINK_CMD_SET_CAM_SCHED_RESP = 210;
+	LINK_CMD_GET_STREAM_LIST_REQ = 211;
+	LINK_CMD_GET_STREAM_LIST_RESP = 212;
+	
+	//Disk 
+	LINK_CMD_DISK_LIST_REQ = 301;
+	LINK_CMD_DISK_LIST_RESP = 302;
+	LINK_CMD_SYS_DISK_LIST_REQ = 303;
+	LINK_CMD_SYS_DISK_LIST_RESP = 304;
+	LINK_CMD_ADD_DISK_REQ = 305;
+	LINK_CMD_ADD_DISK_RESP = 306;
+	LINK_CMD_DEL_DISK_REQ = 307;
+	LINK_CMD_DEL_DISK_RESP = 308;
+	LINK_CMD_UPDATE_DISK_LIMIT_REQ = 309;
+	LINK_CMD_UPDATE_DISK_LIMIT_RESP = 310;
+
+	//License & Version
+	LINK_CMD_GET_LIC_REQ = 401;
+	LINK_CMD_GET_LIC_RESP = 402;
+	LINK_CMD_GET_VER_REQ = 403;
+	LINK_CMD_GET_VER_RESP = 404;
+	LINK_CMD_CONF_LIC_REQ = 405;
+	LINK_CMD_CONF_LIC_RESP = 406;
+	
+	//User
+	LINK_CMD_ADD_USER_REQ = 501;
+	LINK_CMD_ADD_USER_RESP = 502;
+	
+	//Search
+	LINK_CMD_HAS_RECORD_REQ = 601;
+	LINK_CMD_HAS_RECORD_RESP = 602;
+	LINK_CMD_SEARCH_RECORD_REQ = 603;
+	LINK_CMD_SEARCH_RECORD_RESP = 604;
+	
+	//Stream one way command
+	LINK_CMD_START_LIVE_CMD = 701;
+	LINK_CMD_STOP_LIVE_CMD = 702;
+	LINK_CMD_PLAY_BACK_CMD = 703;
+	LINK_CMD_PLAY_PAUSE_CMD = 704;
+	LINK_CMD_PLAY_RESUME_CMD = 705;
+	LINK_CMD_PLAY_SEEK_CMD = 706;
+	LINK_CMD_PLAY_STOP_CMD = 707;
+	
+	//PTZ one way command
+	LINK_CMD_PTZ_CMD = 801;
+	
+	//Cam Search & Event
+	LINK_CMD_CAM_SEARCH_START_REQ = 901;
+	LINK_CMD_CAM_SEARCH_START_RESP = 902;
+	LINK_CMD_CAM_SEARCH_STOP_REQ = 903;
+	LINK_CMD_CAM_SEARCH_STOP_RESP = 904;
+	LINK_CMD_REG_EVENT_REQ = 905;
+	LINK_CMD_REG_EVENT_RESP = 906;
+	LINK_CMD_UNREG_EVENT_REQ = 907;
+	LINK_CMD_UNREG_EVENT_RESP = 908;
+	LINK_CMD_EVENT_SEARCH_REQ = 909;
+	LINK_CMD_EVENT_SEARCH_RESP = 910;
+	LINK_CMD_HANDLE_EVENT_REQ = 911;
+	LINK_CMD_HANDLE_EVENT_RESP = 912;
+
+	//Notify message
+	LINK_CMD_CAM_ADD_NOTIFY = 10001;
+	LINK_CMD_CAM_DEL_NOTIFY = 10002;
+	LINK_CMD_CAM_ONLINE_NOTIFY = 10003;
+	LINK_CMD_CAM_OFFLINE_NOTIFY = 10004;
+	LINK_CMD_CAM_REC_ON_NOTIFY = 10005;
+	LINK_CMD_CAM_REC_OFF_NOTIFY = 10006;
+	
+	LINK_CMD_CAM_SEARCHED_NOTIFY = 10007;
+	LINK_CMD_EVENT_NOTIFY = 10008;
+
+}
+
+message LinkCmd {
+	LinkCmdType type = 1;
+	oneof cmd {
+		LinkLoginReq loginReq = 102;
+		LinkLoginResp loginResp = 103;
+		LinkKeepaliveReq keepaliveReq = 104;
+		LinkKeepaliveResp keepaliveResp = 105;
+		LinkRegNotifyReq regNotifyReq = 106;
+		LinkRegNotifyResp regNotifyResp = 107;
+	
+		//Cam
+		LinkListCamReq camListReq = 201;
+		LinkListCamResp camListResp = 202;
+		LinkCamReq camReq = 203;
+		LinkCamResp camResp = 204;
+		LinkAddCamReq addCamReq = 205;
+		LinkAddCamResp addCamResp = 206;
+		LinkDelCamReq delCamReq = 207;
+		LinkDelCamResp delCamResp = 208;
+		LinkSetCamSchedReq setCamSchedReq = 209;
+		LinkSetCamSchedResp setCamSchedResp = 210;
+		LinkGetStreamListReq getStreamListReq = 211;
+		LinkGetStreamListResp getStreamListResp = 212;
+
+		//Disk
+		LinkVidDiskListReq diskListReq = 301;
+		LinkVidDiskListResp diskListResp = 302;
+		LinkSysVidDiskListReq sysDiskListReq = 303;
+		LinkSysVidDiskListResp sysDiskListResp = 304;
+		LinkAddDiskReq addDiskReq = 305;
+		LinkAddDiskResp addDiskResp = 306;
+		LinkDelDiskReq delDiskReq = 307;
+		LinkDelDiskResp delDiskResp = 308;
+		LinkUpdateDiskLimitReq diskLimitReq = 309;
+		LinkUpdateDiskLimitResp diskLimitResp = 310;
+		
+		//License
+		LinkGetLicReq licReq = 401;
+		LinkGetLicResp licResp = 402;
+		LinkGetVerReq verReq = 403;
+		LinkGetVerResp verResp = 404;
+		LinkConfLicReq confLicReq = 405;
+		LinkConfLicResp confLicResp = 406;
+		
+		
+		//User
+		LinkAddUserReq addUserReq = 501;
+		LinkAddUserResp addUserResp = 502;
+		
+		//Search 
+		LinkHasRecordReq hasRecReq = 601;
+		LinkHasRecordResp hasRecResp = 602;
+		LinkSearchRecordReq searchRecReq = 603;
+		LinkSearchRecordResp searchRecResp = 604;
+		
+		
+		//Stream
+		LinkStartLiveCmd startLiveCmd = 701;
+		LinkStopLiveCmd stopLiveCmd = 702;
+		LinkPlayBackCmd playBackCmd = 703;
+		LinkPlayPauseCmd playPauseCmd = 704;
+		LinkPlayResumeCmd playResumeCmd = 705;
+		LinkPlaySeekCmd playSeekCmd = 706;
+		LinkPlayStopCmd playStopCmd = 707;
+		
+		//PTZ
+		LinkPtzCmd ptzCmd = 801;
+		
+		//Cam Search & Event
+		LinkCamSearchStartReq camSearchStartReq = 901;
+		LinkCamSearchStartResp camSearchStartResp = 902;
+		LinkCamSearchStopReq camSearchStopReq = 903;
+		LinkCamSearchStopResp camSearchStopResp = 904;
+		LinkRegEventReq regEventReq = 905;
+		LinkRegEventResp regEventResp = 906;
+		LinkUnRegEventReq unRegEventReq = 907;
+		LinkUnRegEventResp unRegEventResp = 908;
+		LinkEventSearchReq eventSearchReq = 909;
+		LinkEventSearchResp eventSearchResp = 910;
+		LinkHandleEventReq handleEventReq = 911;
+		LinkHandleEventResp handleEventResp = 912;
+
+		//Notify
+		LinkCamAddNotify camAddNotify = 10001;
+		LinkCamIdNotify camIdNotify = 10002;
+		LinkCamSearchedNotify camSearchedNotify = 10003;
+		LinkEventNotify evnetNotify = 10004;
+	}
+}

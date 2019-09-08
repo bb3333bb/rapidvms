@@ -1,0 +1,89 @@
+Performing C++ SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d5b6/fast"
+make[2]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9d5b6.dir/build.make CMakeFiles/cmTC_9d5b6.dir/build
+make[3]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTC_9d5b6.dir/src.cxx.o
+/usr/bin/c++    -fpic -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION   -o CMakeFiles/cmTC_9d5b6.dir/src.cxx.o -c /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp/src.cxx:1:10: fatal error: mysql.h: No such file or directory
+ #include <mysql.h>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9d5b6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9d5b6.dir/src.cxx.o' failed
+make[3]: *** [CMakeFiles/cmTC_9d5b6.dir/src.cxx.o] Error 1
+make[3]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9d5b6/fast' failed
+make[2]: *** [cmTC_9d5b6/fast] Error 2
+make[2]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7005/fast"
+make[2]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e7005.dir/build.make CMakeFiles/cmTC_e7005.dir/build
+make[3]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_e7005.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e7005.dir/CheckSymbolExists.c.o   -c /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_e7005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7005.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e7005.dir/CheckSymbolExists.c.o  -o cmTC_e7005 
+CMakeFiles/cmTC_e7005.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e7005.dir/build.make:97: recipe for target 'cmTC_e7005' failed
+make[3]: *** [cmTC_e7005] Error 1
+make[3]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e7005/fast' failed
+make[2]: *** [cmTC_e7005/fast] Error 2
+make[2]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+
+File /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7af1f/fast"
+make[2]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7af1f.dir/build.make CMakeFiles/cmTC_7af1f.dir/build
+make[3]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_7af1f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7af1f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_7af1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7af1f.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7af1f.dir/CheckFunctionExists.c.o  -o cmTC_7af1f -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7af1f.dir/build.make:97: recipe for target 'cmTC_7af1f' failed
+make[3]: *** [cmTC_7af1f] Error 1
+make[3]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7af1f/fast' failed
+make[2]: *** [cmTC_7af1f/fast] Error 2
+make[2]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,14 @@
+prefix=/home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Gui
+Description: Qt Gui module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5Gui 
+Libs.private: -L/home/bangnq/working/linkingvision/rapidvms/3rdparty/qt/qtbase-opensource-src-5.7.1/lib -lQt5Core -lpthread -lqtpng -lqtharfbuzzng -lz -lGL  
+Cflags: -I${includedir}/QtGui -I${includedir}
+Requires: Qt5Core
+

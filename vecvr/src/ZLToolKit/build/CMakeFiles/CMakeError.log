@@ -1,0 +1,24 @@
+Performing C++ SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95753/fast"
+make[2]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_95753.dir/build.make CMakeFiles/cmTC_95753.dir/build
+make[3]: Entering directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/bangnq/working/rapidvms/output/Ubuntu-18.04-64bit/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTC_95753.dir/src.cxx.o
+/usr/bin/c++    -fpic -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION   -o CMakeFiles/cmTC_95753.dir/src.cxx.o -c /home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp/src.cxx
+/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp/src.cxx:1:10: fatal error: mysql.h: No such file or directory
+ #include <mysql.h>
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_95753.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_95753.dir/src.cxx.o' failed
+make[3]: *** [CMakeFiles/cmTC_95753.dir/src.cxx.o] Error 1
+make[3]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95753/fast' failed
+make[2]: *** [cmTC_95753/fast] Error 2
+make[2]: Leaving directory '/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLToolKit/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }

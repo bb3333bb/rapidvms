@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -rdynamic CMakeFiles/protoc.dir/home/bangnq/working/linkingvision/rapidvms/3rdparty/protobuf/src/google/protobuf/compiler/main.cc.o  -o protoc libprotobuf.a libprotoc.a libprotobuf.a -lpthread /usr/lib/x86_64-linux-gnu/libz.so 

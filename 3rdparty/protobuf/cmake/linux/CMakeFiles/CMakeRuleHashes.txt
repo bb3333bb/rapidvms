@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+958294891214ca4aef206fe1cfe37352 /home/bangnq/working/linkingvision/rapidvms/3rdparty/protobuf/src/google/protobuf/compiler/js/well_known_types_embed.cc

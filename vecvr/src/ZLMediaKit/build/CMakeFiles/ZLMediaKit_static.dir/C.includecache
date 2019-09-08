@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/src/H264/SPSParser.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+pthread.h
+-
+SPSParser.h
+/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/src/H264/SPSParser.h
+
+/home/bangnq/working/linkingvision/rapidvms/vecvr/src/ZLMediaKit/src/H264/SPSParser.h
+

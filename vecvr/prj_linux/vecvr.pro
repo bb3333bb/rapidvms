@@ -54,15 +54,15 @@ INCLUDEPATH += ./GeneratedFiles \
     ./../../3rdparty/spdlog/include\
     ./../../onvif/include\
     ./../../onvif/video\
-    ../../output/$$(VE_INSTALL_DIR)/include/ZLMediaKit\
-    ../../output/$$(VE_INSTALL_DIR)/include/ZLMediaKit/H264\
-    ../../output/$$(VE_INSTALL_DIR)/include/ZLToolKit\
-    ../../output/$$(VE_INSTALL_DIR)/include/QtCore\
-    ../../output/$$(VE_INSTALL_DIR)/include/QtGui\
-    ../../output/$$(VE_INSTALL_DIR)/include/QtWidgets\
-    ../../output/$$(VE_INSTALL_DIR)/include/QtXml\
-    ../../output/$$(VE_INSTALL_DIR)/include/QtNetwork\
-    ../../output/$$(VE_INSTALL_DIR)/include/QtXmlPatterns
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/ZLMediaKit\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/ZLMediaKit/H264\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/ZLToolKit\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/QtCore\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/QtGui\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/QtWidgets\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/QtXml\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/QtNetwork\
+    $$(VE_PATH)/output/$$(VE_INSTALL_DIR)/include/QtXmlPatterns
 
 
 
@@ -73,6 +73,7 @@ LIBS +=  \
     -L"./../../3rdparty/leveldb/" \
     -L../../output/$$(VE_INSTALL_DIR)/lib \
     -L../../output/$$(VE_INSTALL_DIR)/lib/x86_64-linux-gnu \
+    -L$$(VE_PATH)/output/$$(VE_INSTALL_DIR)/lib \
     -lZLMediaKit\
     -lZLToolKit\
     -lcmnlib\

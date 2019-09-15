@@ -1,0 +1,3 @@
+FROM bangnq/rapidvms:v0.1 as vmsbase
+ADD ./vecvr.pro /app/rapidvms/vecvr/prj_linux/
+RUN cd /app/rapidvms && /bin/bash -c "source /app/rapidvms/rules.mk; make"
